@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/ProyectoFinal_BD_DAW">
+  <Resource 
+      auth="Container" 
+      driverClassName="com.mysql.jdbc.Driver" 
+      maxActive="15" 
+      maxIdle="3" 
+      maxWait="500" 
+      name="jdbc/ProyectoFinalBD_DAW" 
+      password="admin" 
+      type="javax.sql.DataSource" 
+      url="jdbc:mysql://localhost:3306/UBA_agencia_artistas?allowPublicKeyRetrieval=true&amp;useSSL=false" 
+      username="root">
+    </Resource>
+</Context>

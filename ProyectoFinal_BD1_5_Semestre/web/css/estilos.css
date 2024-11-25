@@ -1,0 +1,30 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 14 nov 2024, 07:59:49
+    Author     : padil
+*/
+
+.mensajeDeError {
+    color: red;
+}
+.fondo {
+    background-color: rgba(0, 0, 0, 0.5);
+    /*background-size: 50% 10%; /* Reduzco la altura relativa de la franja */
+    margin: 50px auto; /* Centrar horizontal y vertical */
+    padding: 50px; /* Reducir espacio interno */
+    width: 60%; /* O establecer un ancho relativo fijo para un mejor control */
+}
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.8); /* Opcional para resaltar el texto */
+    color: white;
+    padding: 10px;
+    font-size: 14px;
+}
